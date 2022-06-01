@@ -219,6 +219,7 @@ a.top-logo > span {
 }
 
 .container-item {
+    position: static;
     margin-right: 30px;
 }
 
@@ -303,8 +304,41 @@ a.top-logo > span {
 }
 
 .deal-container-list-pic {
+    position: relative;
     display: flex;
     padding-left: 0;
+}
+
+.plashka {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.plashka-txt {
+    position: absolute;
+    top: 27px;
+    color: var(--bg-colorlight);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.plashka-txt:nth-child(1) {
+    left: 83px;
+}
+
+.plashka-txt:nth-child(2) {
+    left: 86px;
+}
+
+.plashka-txt:nth-child(3) {
+    left: 95px;
 }
 
 .team-container-list {
