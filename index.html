@@ -50,7 +50,7 @@
             <section class="hero">
                 <div class="container hero-container">
                     <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                    <button class="hero-but" type="button">
+                    <button class="hero-but" type="button" data-modal-open>
                         Заказать услугу
                     </button>
                 </div>
@@ -406,5 +406,22 @@
                 </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal-wrapper">
+                <button class="modal-btn" type="button" data-modal-close>
+                    X
+                </button>
+                <p>
+                    Lorem ipsum, dolor sit 
+                    amet consectetur adipisicing elit. 
+                    Impedit, repellendus quasi doloremque ea, 
+                    a delectus provident molestiae minima facilis 
+                    corrupti quos blanditiis quibusdam, aspernatur 
+                    quam mollitia corporis laboriosam ratione libero!
+                </p>
+            </div>
+        </div>
+        <script src="js/modal.js">
+        </script>
     </body>
 </html>
